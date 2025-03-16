@@ -1,0 +1,20 @@
+# Install Dependencies
+
+```
+rosdep install -i --from-path src --rosdistro rolling -y
+```
+
+# Build:
+
+```
+colcon build --packages-select my_pkg
+```
+
+# Execute
+
+```
+. /opt/ros/rolling/setup.zsh
+source install/local_setup.bash
+ros2 run my_pkg my_node
+```
+

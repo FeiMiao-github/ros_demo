@@ -1,0 +1,4 @@
+ros2_ws[0-9]*/build/*
+ros2_ws[0-9]*/install/*
+ros2_ws[0-9]*/log/*
+ros2_ws[0-9]*/.cache/*
